@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 contract gasChallenge {
     uint[10] numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-    // Function to check for the sum of array
+    // Function to check for the sum of the array
     // No changes required in this function
     function getSumOfArray() public view returns (uint256) {
         uint sum = 0;
